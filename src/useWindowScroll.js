@@ -11,7 +11,7 @@ export function useWindowScroll() {
     })
   });
 
-  function scrollTo({x = 0, y = 0}) {
+  function scrollTo({x, y}) {
     window.scrollTo({
       top: y,
       left: x,
